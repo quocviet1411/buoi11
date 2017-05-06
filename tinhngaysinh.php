@@ -62,10 +62,9 @@
 				else
 					$rs="Còn $da ngày nữa là đến sinh nhật bạn rồi !!";
 			}
-			
-
-		}
 		echo @$rs;
+		}
+		
 	 ?>
 	<form action="" method="post" accept-charset="utf-8">
 		<input type="text" name="ngay" <?php echo @$fs_d ?> placeholder="Nhập ngày sinh" value="<?php echo @$date ?>">
